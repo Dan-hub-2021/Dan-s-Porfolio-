@@ -1,0 +1,58 @@
+*{
+  font:bold;
+  font-size:medium;
+
+}
+
+body {
+  background: linear-gradient(-45deg, #e9e1b3, #cacaec, #aaeea7, #9be5df);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  margin: 0;
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+} 
+
+.social-container {
+  opacity: 1;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.github {
+  color: #070230;
+  padding-left: 5rem;
+
+}
+
+a.facebook {
+  color: #4968ad;
+  padding-left: 5rem;
+
+}
+
+a.twitter {
+  color: #49a1eb;
+  padding-left: 5rem;
+
+}
+
+a.instagram {
+  color: black;
+  padding-left: 5rem;
+
+}
